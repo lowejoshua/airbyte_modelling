@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+  - name: wow_fancy_transform
+    description: "A starter dbt model"
+    columns:
+      - name: key
+        description: "The primary key for this table"
+      - name: date
+        description: "Another column"
